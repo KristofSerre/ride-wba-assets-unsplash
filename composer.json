@@ -1,0 +1,30 @@
+{
+    "name": "ride/wba-assets-unsplash",
+    "description": "Implementation to add random images from Unsplash",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Kristof Serré",
+            "email": "kristof@statik.be"
+        }
+    ],
+    "require": {
+        "ride/app-media": ">=0.2.0",
+        "ride/app-orm": ">=0.1.0",
+        "ride/app-orm-asset": ">=0.8.0",
+        "ride/lib-form": ">=0.5.4",
+        "ride/lib-http": ">=0.2.1",
+        "ride/lib-i18n": ">=0.1.0",
+        "ride/lib-image": ">=0.2.0",
+        "ride/lib-media": ">=0.1.0",
+        "ride/lib-system": ">=0.1.0",
+        "ride/lib-validation": ">=0.1.0",
+        "ride/web-base": ">=0.9.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\web\\base\\": ["src/"]
+        }
+    }
+}

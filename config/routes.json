@@ -1,0 +1,17 @@
+{
+    "routes": [
+        {
+            "path": "/assets/unsplash",
+            "controller": "ride\\web\\base\\controller\\UnsplashController",
+            "action": "indexAction",
+            "id": "assets.unsplash"
+        },
+        {
+            "path": "/assets/unsplash/generate",
+            "controller": "ride\\web\\base\\controller\\UnsplashController",
+            "action": "generateImagesAction",
+            "id": "assets.unsplash.generate"
+        }
+        
+    ]
+}
