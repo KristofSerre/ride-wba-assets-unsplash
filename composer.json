@@ -2,7 +2,7 @@
     "name": "ride/wba-assets-unsplash",
     "description": "Implementation to add random images from Unsplash",
     "license": "MIT",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "authors": [
         {
             "name": "Kristof Serré",
